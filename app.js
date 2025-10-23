@@ -9,7 +9,7 @@ const networkCtrl = require('./controllers/network');
 const computeCtrl = require('./controllers/compute');
 const volumesCtrl = require('./controllers/volumes');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000
 
 const app = express();
 app.use(bodyParser.json());
